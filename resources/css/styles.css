@@ -16,7 +16,7 @@ h1 {
   text-transform: uppercase;
   color: #fff;
   font-size: 50px;
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/underline.png");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/underline.png");
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@ h2 {
 h3 {
   font-family: 'Baloo Paaji', cursive;
   font-size: 38px;
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/underline.png");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/underline.png");
   background-position: bottom;
   background-repeat: no-repeat;
   margin-top: 0;
@@ -288,7 +288,7 @@ nav>ul>li:hover {
 /* Banner */
 
 .banner {
-  background: linear-gradient( rgb(249, 141, 41), rgba(255, 255, 255, 0) ), url("File://C:/Users/Louise87/Desktop/bc/resources/images/road.jpeg");
+  background: linear-gradient( rgb(249, 141, 41), rgba(255, 255, 255, 0) ), url("https://halllou.github.io/broadband-consciousness/resources/images/road.jpeg");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -324,7 +324,7 @@ nav>ul>li:hover {
 .banner-content {
   text-align: center;
   width: 60%;
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/border1.png");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/border1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -436,7 +436,7 @@ nav>ul>li:hover {
 
 @media only screen and (max-width: 383px)  {
   .banner-content {
-    background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/border-mobile.png");
+    background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/border-mobile.png");
   }
 }
 
@@ -469,7 +469,7 @@ nav>ul>li:hover {
 }
 
 .main-image1 {
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/thunder.jpg");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/thunder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -483,7 +483,7 @@ nav>ul>li:hover {
 }
 
 .main-image2 {
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/cloud-pic.jpeg");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/cloud-pic.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -503,7 +503,7 @@ nav>ul>li:hover {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0 20px;
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/speech-left.PNG");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/speech-left.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -521,7 +521,7 @@ nav>ul>li:hover {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0 20px;
-  background-image: url("File://C:/Users/Louise87/Desktop/bc/resources/images/speech-right.PNG");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/speech-right.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
