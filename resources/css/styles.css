@@ -605,6 +605,16 @@ table h4 {
   overflow-x: scroll;
 }
 
+.courses-table table {
+  min-width: 631px;
+}
+
+@media only screen and (min-width: 631px)  {
+  .scroll-txt {
+    display: none;
+  }
+}
+
 /* Location blocks */
 
 .box table {
