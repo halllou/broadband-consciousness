@@ -419,6 +419,8 @@ nav>ul>li:hover {
   }
   .banner {
     background-position: initial;
+    background-position: inherit;
+    background-position: unset;
   }
 }
 
@@ -503,7 +505,7 @@ nav>ul>li:hover {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0 20px;
-  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/speech-left.PNG");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/speech-left.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -521,7 +523,7 @@ nav>ul>li:hover {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0 20px;
-  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/speech-right.PNG");
+  background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/speech-right.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -804,6 +806,7 @@ input, textarea {
   text-transform: capitalize;
   background-color: #FC9129;
   cursor: pointer;
+  box-shadow: none;
 }
 
 #submit:hover {
