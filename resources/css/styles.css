@@ -607,6 +607,12 @@ table h4 {
 
 .courses-table {
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
 }
 
 .courses-table table {
