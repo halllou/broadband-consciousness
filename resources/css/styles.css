@@ -393,12 +393,6 @@ nav>ul>li:hover {
 }
 
 
-@media only screen and (max-width: 799px) {
-  .banner-content {
-    margin: 10% auto 0 auto;
-  }
-}
-
 @media only screen and (max-width: 906px) {
   .banner-content h1 {
     font-size: 30px;
@@ -442,7 +436,9 @@ nav>ul>li:hover {
 @media only screen and (max-width: 383px)  {
   .banner-content {
     background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/border-mobile.png");
-    background-size: 300px 305px;
+    background-size: 300px 350px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .banner span {
     margin-bottom: 8%;
