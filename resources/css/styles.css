@@ -443,6 +443,9 @@ nav>ul>li:hover {
   .banner-content {
     background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/border-mobile.png");
   }
+  .banner span {
+    margin-bottom: 8%;
+  }
 }
 
 /* Home */
@@ -575,7 +578,7 @@ table {
   border-collapse: collapse;
   text-align: left;
   min-width: 631px;
-  
+
   }
 
 th {
