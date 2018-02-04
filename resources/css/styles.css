@@ -244,7 +244,7 @@ nav>ul>li:hover {
   .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #fff;
+    background-color: #f4f4f4;
     width: 100%;
     z-index: 1100;
     right: 0;
@@ -260,6 +260,7 @@ nav>ul>li:hover {
       text-align: center;
       text-transform: uppercase;
       font-family: 'Baloo Paaji', cursive;
+      border-bottom:
     }
 
     .dropdown-content a:hover {
@@ -556,6 +557,8 @@ nav>ul>li:hover {
   .main-text1 p, .main-text2 p {
     line-height: 1.3;
     font-size: 14px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
   .main-text1 h3, .main-text2 h3 {
     font-size: 30px;
@@ -571,9 +574,9 @@ nav>ul>li:hover {
 table {
   border-collapse: collapse;
   text-align: left;
-  overflow-x: auto;
+  min-width: 631px;
+  
   }
-}
 
 th {
   border-bottom: 3px solid #FC9129;
@@ -650,6 +653,7 @@ table h4 {
   padding: 3% 0 0 0;
   text-align: center;
   display: block;
+  overflow-x: scroll;
 }
 
 .box {
@@ -694,12 +698,14 @@ table h4 {
 @media only screen and (max-width: 1300px) {
   .courses-wrapper {
     width: 80%;
+
   }
 }
 
 @media only screen and (max-width: 979px) {
   .courses-wrapper {
     width: 90%;
+    overflow-x: scroll;
   }
 }
 
@@ -790,7 +796,7 @@ textarea {
   border-radius: 20px;
 }
 input, textarea {
-  width: 70%;
+  width: 80%;
   background-color: #f4f4f4;
   padding: 5px 10px;
   margin: 10px auto 20px auto;
@@ -841,13 +847,10 @@ textarea:focus, input:focus{
 @media only screen and (max-width: 819px) {
   .contact-form {
     float: none;
-    width: 100%;
+    width: 90%;
   }
   .contact-details {
     display: none;
-  }
-  input, textarea {
-    width: 100%;
   }
 }
 
