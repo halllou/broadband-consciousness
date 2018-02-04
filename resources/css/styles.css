@@ -442,6 +442,7 @@ nav>ul>li:hover {
 @media only screen and (max-width: 383px)  {
   .banner-content {
     background-image: url("https://halllou.github.io/broadband-consciousness/resources/images/border-mobile.png");
+    background-size: 300px 305px;
   }
   .banner span {
     margin-bottom: 8%;
@@ -601,7 +602,6 @@ table h4 {
 }
 
 .courses-table {
-  min-width: 631px;
   overflow-x: scroll;
 }
 
