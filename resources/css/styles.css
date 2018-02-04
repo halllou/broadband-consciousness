@@ -170,8 +170,8 @@ section {
 /* Header */
 
 header {
-  height: 35px;
-  background-color: rgba(252, 145, 41, 0.95);
+  height: 50px;
+  background-color: #FC9129;
   text-align: center;
   position: fixed;
   z-index: 1000;
@@ -181,6 +181,23 @@ header {
   justify-content: center;
   align-items: center;
   top: 0;
+}
+
+.logo {
+  height: 60px;
+  position: absolute;
+  left: 40px;
+}
+
+.logo {
+  height: 100%;
+  font-family: 'Baloo Paaji', cursive;
+  font-size: 14px;
+  color: #fff;
+}
+
+.logo p {
+  line-height: 0.2;
 }
 
 nav>ul {
@@ -208,8 +225,8 @@ nav>ul>li:hover {
 }
 
 .nav-active {
-  color: #fff;
-  background-color: #ffbf81;
+  color: #FC9129;
+  background-color: #fff;
   transition: 0.4s ease;
 }
 
@@ -219,7 +236,7 @@ nav>ul>li:hover {
 }
 
 .menu-btn {
-  height: 25px;
+  height: 20px;
 }
 
 .dropdown {
@@ -284,15 +301,18 @@ nav>ul>li:hover {
   .desktop-nav {
     display: none;
   }
+  .logo {
+    left: 20%;
+  }
   header {
-    height: 45px;
+    justify-content: flex-end;
   }
 }
 
 /* Banner */
 
 .banner {
-  background: linear-gradient( rgb(249, 141, 41), rgba(255, 255, 255, 0) ), url("https://halllou.github.io/broadband-consciousness/resources/images/road.jpeg");
+  background: url("https://halllou.github.io/broadband-consciousness/resources/images/road.jpeg");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;
