@@ -560,8 +560,8 @@ nav>ul>li:hover {
   .main-text1 p, .main-text2 p {
     line-height: 1.3;
     font-size: 14px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   .main-text1 h3, .main-text2 h3 {
     font-size: 30px;
