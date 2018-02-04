@@ -442,6 +442,10 @@ nav>ul>li:hover {
   }
   .banner span {
     margin-bottom: 8%;
+    padding-bottom: 40px;
+  }
+  .banner-content h1 {
+    padding-top: 40px;
   }
 }
 
