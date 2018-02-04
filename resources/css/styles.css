@@ -577,9 +577,7 @@ nav>ul>li:hover {
 table {
   border-collapse: collapse;
   text-align: left;
-  min-width: 631px;
-
-  }
+}
 
 th {
   border-bottom: 3px solid #FC9129;
@@ -600,6 +598,11 @@ table h4 {
   color: #FC9129;
   font-weight: bold;
   margin: 0;
+}
+
+.courses-table {
+  min-width: 631px;
+  overflow-x: scroll;
 }
 
 /* Location blocks */
@@ -656,7 +659,6 @@ table h4 {
   padding: 3% 0 0 0;
   text-align: center;
   display: block;
-  overflow-x: scroll;
 }
 
 .box {
@@ -701,14 +703,12 @@ table h4 {
 @media only screen and (max-width: 1300px) {
   .courses-wrapper {
     width: 80%;
-
   }
 }
 
 @media only screen and (max-width: 979px) {
   .courses-wrapper {
     width: 90%;
-    overflow-x: scroll;
   }
 }
 
@@ -854,6 +854,9 @@ textarea:focus, input:focus{
   }
   .contact-details {
     display: none;
+  }
+  input, textarea {
+    width: 100%;
   }
 }
 
