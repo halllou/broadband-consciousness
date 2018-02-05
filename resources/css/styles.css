@@ -225,9 +225,9 @@ nav>ul>li:hover {
   color: #FC9129;
   background-color: #fff;
   transition: 0.4s ease;
-  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
 .mobile-nav {
@@ -638,23 +638,19 @@ table h4 {
   margin: 0;
 }
 
-.courses-table {
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 8px;
-}
-
 .courses-table table {
   min-width: 631px;
 }
 
-@media only screen and (min-width: 631px)  {
+@media only screen and (min-width: 775px)  {
   .scroll-txt {
     display: none;
+  }
+}
+@media only screen and (max-width: 775px)  {
+  .courses-table {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -734,9 +730,10 @@ table h4 {
   position: relative;
 }
 
-.box.box-heading {
+/* .box.box-heading {
   z-index: -1;
-}
+} */
+
 .box.box-heading h4 {
     border-radius: 0 0 5px 5px;
     display: inline-block;
@@ -950,4 +947,15 @@ footer span {
   font-size: 14px;
   text-align: center;
   padding-top: 1%;
+}
+
+.footer-logo {
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  padding-top: 5px;
+}
+
+.footer-logo img {
+  height: 100%;
 }
