@@ -206,7 +206,7 @@ nav>ul {
 nav>ul>li {
   padding: 16px 18px 14px 18px;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 16px;
   display: inline-block;
   margin: 0 -2px;
@@ -225,9 +225,6 @@ nav>ul>li:hover {
   color: #FC9129;
   background-color: #fff;
   transition: 0.4s ease;
-  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
 .mobile-nav {
@@ -278,7 +275,7 @@ nav>ul>li:hover {
       text-decoration: none;
       display: block;
       text-align: center;
-      text-transform: capitalize;
+      text-transform: uppercase;
       font-family: 'Baloo Paaji', cursive;
       border-bottom:
     }
@@ -503,7 +500,7 @@ nav>ul>li:hover {
 }
 
 .block-row {
-  width: 100%;
+  width: 60%;
   margin: auto;
   padding: 0;
   overflow: hidden;
@@ -540,7 +537,7 @@ nav>ul>li:hover {
 }
 
 .main-text1 {
-  width: 90%;
+  width: 80%;
   text-align: center;
   color: inherit;
   font-family: 'Open Sans', sans-serif;
@@ -558,7 +555,7 @@ nav>ul>li:hover {
 }
 
 .main-text2 {
-  width: 90%;
+  width: 80%;
   text-align: center;
   color: inherit;
   font-family: 'Open Sans', sans-serif;
@@ -579,7 +576,13 @@ nav>ul>li:hover {
   margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 755px)  {
+@media only screen and (max-width: 1236px)  {
+  .block-row {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 1172px)  {
   .main-image1, .main-image2 {
     float: none;
     width: 100%;
@@ -591,12 +594,30 @@ nav>ul>li:hover {
   }
 }
 
+
+@media only screen and (max-width: 1107px)  {
+  .main-image1, .main-image2 {
+    float: none;
+    width: 100%;
+    height: 500px;
+    background-position: initial;
+  }
+  .block-row {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 677px)  {
+  .block-row {
+    width:100%;
+  }
+}
+
 @media only screen and (max-width: 383px)  {
   .main-text1 h3, .main-text2 h3 {
     font-size: 30px;
   }
   .main-image1, .main-image2 {
-    height: 400px;
     background-attachment: initial;
   }
 }
@@ -607,6 +628,9 @@ nav>ul>li:hover {
     font-size: 14px;
     padding-left: 8px;
     padding-right: 8px;
+  }
+  .main-image1, .main-image2 {
+    height: 370px;
   }
 }
 
@@ -786,25 +810,31 @@ table h4 {
   width: 60%;
   clear: both;
   margin: auto;
-  padding-top: 3%;
+  padding: 2%;
   display: block;
   overflow: hidden;
+  text-align: center;
 }
 
-.test-photo {
-  width: 20%;
-  overflow: hidden;
+.test-wrapper .fa {
+  color: #FC9129;
 }
 
-.test-photo img {
-  width: 100%;
-  border-radius: 50%;
+.fa-quote-left {
+  padding-right: 10px;
 }
 
-.testimonial {
-  width: calc(80% - 40px);
-  padding-left: 40px;
-  height: 100%;
+.fa-quote-right {
+  padding-left: 10px;
+}
+
+
+.test-wrapper:first-child {
+  margin-top: 2%;
+}
+
+.test-wrapper:nth-child(odd) {
+  background: #f4f4f4;
 }
 
 @media only screen and (max-width: 1300px) {
